@@ -9,7 +9,7 @@ namespace Project1
 		{
 
 			Console.WriteLine("Main menu:\n");
-			Console.WriteLine("1. Play game\n2. Settings\n3. Exit");
+			Console.WriteLine("1. Play game\n2. Rules\n3. Settings\n4. Exit");
 			Console.WriteLine("\n..please enter the number of the menu item..\n");
 			int playerChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -19,9 +19,12 @@ namespace Project1
 					Console.WriteLine("\nYou choice menu item - Play Game.");
 					break;
 				case 2:
-					Console.WriteLine("\nYou choice menu item - Settings.");
+					Console.WriteLine("\nYou choice menu item - Rules.");
 					break;
 				case 3:
+					Console.WriteLine("\nYou choice menu item - Settings.");
+					break;
+				case 4:
 					Console.WriteLine("\nYou choice menu item - Exit.");
 					break;
 				default:
@@ -32,15 +35,20 @@ namespace Project1
 			if (playerChoice == 1)
 			{
 				Console.WriteLine("\nStart Game.");
-	DiceRoller game = new DiceRoller();
-game.Roller();
+				DiceRoller game = new DiceRoller();
+				game.Roller();
 			}
 			else if (playerChoice == 2)
+			{
+				Console.WriteLine("\nGame rules:");
+				//и сюда вставляем методы/классы
+			}
+			else if (playerChoice == 3)
 			{
 				Console.WriteLine("\nGame settings:");
 				//и сюда вставляем методы/классы
 			}
-			else if (playerChoice == 3)
+			else if (playerChoice == 4)
 			{
 				Console.WriteLine("\nGoodbye.");
 			}
