@@ -5,4 +5,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Game.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DiceRoller.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DiceRoller2.0">
+      <HintPath>bin\Debug\net5.0\DiceRoller2.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

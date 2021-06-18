@@ -15,12 +15,12 @@ Example:
 
 using System;
 
-namespace SoloLearn
+namespace Game
 {
-	class DiceRoller
+	public class DiceRoller
 	{
-		static void Main(string[] args)
-		{
+        public void Roller()
+        {
 			string dice1 = "+-----+\n|     |\n|  *  |\n|     |\n+-----+";
 			string dice2 = "+-----+\n|     |\n| * * |\n|     |\n+-----+";
 			string dice3 = "+-----+\n|     |\n| *** |\n|     |\n+-----+";

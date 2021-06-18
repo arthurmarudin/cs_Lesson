@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Project1/1.0.0": {
+        "dependencies": {
+          "DiceRoller2.0": "1.0.0.0"
+        },
         "runtime": {
           "Project1.dll": {}
+        }
+      },
+      "DiceRoller2.0/1.0.0.0": {
+        "runtime": {
+          "DiceRoller2.0.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "Project1/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiceRoller2.0/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
