@@ -1,0 +1,15 @@
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/Project1.deps.json
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/Project1.runtimeconfig.json
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/Project1.runtimeconfig.dev.json
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/Project1.dll
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/ref/Project1.dll
+/Users/mac/Projects/Project1/Project1/bin/Debug/net5.0/Project1.pdb
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.csprojAssemblyReference.cache
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.AssemblyInfoInputs.cache
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.AssemblyInfo.cs
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.dll
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/ref/Project1.dll
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.pdb
+/Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.genruntimeconfig.cache
