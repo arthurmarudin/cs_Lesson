@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac/Projects/Project1/Project1/Project1.csproj",
+      "projectUniqueName": "/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/Project1.csproj",
       "projectName": "Project1",
-      "projectPath": "/Users/mac/Projects/Project1/Project1/Project1.csproj",
+      "projectPath": "/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/Project1.csproj",
       "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Users/mac/Projects/Project1/Project1/obj/",
+      "outputPath": "/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mac/.config/NuGet/NuGet.Config"

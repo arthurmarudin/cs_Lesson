@@ -13,3 +13,11 @@
 /Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/ref/Project1.dll
 /Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.pdb
 /Users/mac/Projects/Project1/Project1/obj/Debug/net5.0/Project1.genruntimeconfig.cache
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.csprojAssemblyReference.cache
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.AssemblyInfoInputs.cache
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.AssemblyInfo.cs
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.csproj.CoreCompileInputs.cache
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.dll
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/ref/Project1.dll
+/Users/mac/Project_1/cs_Lesson/ProjectLessons/Project1/obj/Debug/net5.0/Project1.pdb
