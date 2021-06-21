@@ -16,6 +16,13 @@ namespace Project1
 
             MainMenu main = new MainMenu();
             main.menuItem(playerChoice);
+
+			Console.WriteLine("\nMain menu:\n");
+			Console.WriteLine("1. Play game\n2. Rules\n3. Settings\n4. Exit");
+			Console.WriteLine("\n..please enter the number of the menu item..\n");
+			playerChoice = Convert.ToInt32(Console.ReadLine());
+
+			main.menuItem(playerChoice);
 		}
 
 	}
