@@ -13,7 +13,7 @@ namespace Main
 				Console.WriteLine("\nYou choice menu item - Play Game.");
                 break;
 				case 2:
-				Console.WriteLine("\nYou choice menu item - Play Game.");
+				Console.WriteLine("\nYou choice menu item - Rules.");
 				break;
 				case 3:
 				Console.WriteLine("\nYou choice menu item - Settings.");
