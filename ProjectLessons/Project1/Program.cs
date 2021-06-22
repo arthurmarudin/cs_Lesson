@@ -6,7 +6,7 @@ namespace Project1
 {
 	class Program
 	{
-		static void Main(string[] args)
+        static void Main(string[] args)
 		{
 			while (true)
             {

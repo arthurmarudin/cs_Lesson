@@ -20,8 +20,8 @@ using Main;
 				Random dice = new Random();
 				Console.WriteLine($"\n{name}, let's start the game!\n");
 				Console.ReadKey();
-				int roll1 = 1;
-				Console.WriteLine($"The first dice is rolled. Score: {roll1}.");
+				int roll1 = dice.Next(1, 7);
+			Console.WriteLine($"The first dice is rolled. Score: {roll1}.");
 				switch (roll1)
 				{
 					case 1:
