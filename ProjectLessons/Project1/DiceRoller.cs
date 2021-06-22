@@ -4,6 +4,9 @@
 	{
 		public class DiceRoller
 		{
+		public int roll1;
+		public int rollTotal;
+
 			public void Roller()
 			{
 				string dice1 = "+-----+\n|     |\n|  *  |\n|     |\n+-----+";

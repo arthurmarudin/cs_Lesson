@@ -10,18 +10,17 @@ namespace Project1
 			while (true)
             {
 				Console.WriteLine("\nMain menu:\n");
-				Console.WriteLine("1. Play game\n2. Rules\n3. Settings\n4. Exit");
+				Console.WriteLine("1. Play game\n2. Rules\n3. Top users\n4. Settings\n5. Exit");
 				Console.WriteLine("\n..please enter the number of the menu item..\n");
 				int playerChoice = Convert.ToInt32(Console.ReadLine());
 
 				MainMenu main = new MainMenu();
 				main.menuItem(playerChoice);
-				if (playerChoice == 4)
+				if (playerChoice == 5)
                 {
 					break;
                 }
 			}
 		}
-
 	}
 }
