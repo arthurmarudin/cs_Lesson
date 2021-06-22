@@ -15,7 +15,6 @@ using Main;
 				string dice6 = "+-----+\n| * * |\n| * * |\n| * * |\n+-----+";
 
 				Console.WriteLine("Hey! I suggest playing the game Dice Roller.");
-				Console.WriteLine("\nRules:\nFor the game, 3 dice rolls are given.\nIf the player gets more than 12 points in total, then he wins the game, if not, he loses.");
 				Console.ReadKey();
 				Console.WriteLine("What is your name?");
 				string name = Console.ReadLine();
