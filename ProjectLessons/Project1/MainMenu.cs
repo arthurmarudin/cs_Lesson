@@ -1,14 +1,13 @@
 ﻿using System;
 using Game;
 
-
 namespace Main
 {
 	public class MainMenu
 	{
-		public void menuItem(int x)
+		public void menuItem(int item)
 		{
-            switch (x)
+            switch (item)
 			{
 				case 1:
 				Console.WriteLine("\nYou choice menu item - Play Game.");
@@ -27,23 +26,23 @@ namespace Main
 				break;
 
 			}
-					if (x == 1)
+					if (item == 1)
 					{
 						Console.WriteLine("\nStart Game.");
 						DiceRoller game = new DiceRoller();
 						game.Roller();
 					}
-					else if (x == 2)
+					else if (item == 2)
 					{
 						Console.WriteLine("\nGame rules:");
-                Rules();
+                        Rules();
 					}
-					else if (x == 3)
+					else if (item == 3)
 					{
 						Console.WriteLine("\nGame settings:");
 						//и сюда вставляем методы/классы
 					}
-					else if (x == 4)
+					else if (item == 4)
 					{
 						Console.WriteLine("\nGoodbye.");
 					}

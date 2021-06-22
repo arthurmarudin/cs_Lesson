@@ -1,5 +1,4 @@
 ﻿using System;
-using Main;
 
 	namespace Game
 	{
@@ -17,11 +16,12 @@ using Main;
 				Console.WriteLine("What is your name?");
 				string name = Console.ReadLine();
 
-				Random dice = new Random();
 				Console.WriteLine($"\n{name}, let's start the game!\n");
 				Console.ReadKey();
-				int roll1 = dice.Next(1, 7);
-			Console.WriteLine($"The first dice is rolled. Score: {roll1}.");
+
+			    Random dice = new Random();
+			    int roll1 = dice.Next(1, 7);
+			    Console.WriteLine($"The first dice is rolled. Score: {roll1}.");
 				switch (roll1)
 				{
 					case 1:
@@ -43,6 +43,7 @@ using Main;
 						Console.WriteLine(dice6);
 						break;
 				}
+
 				Console.ReadKey();
 				int roll2 = dice.Next(1, 7);
 				Console.WriteLine($"The second dice is rolled. Score: {roll2}.");
@@ -67,6 +68,7 @@ using Main;
 						Console.WriteLine(dice6);
 						break;
 				}
+
 				Console.ReadKey();
 				int roll3 = dice.Next(1, 7);
 				Console.WriteLine($"The third dice is rolled. Score: {roll3}.");
@@ -91,6 +93,7 @@ using Main;
 						Console.WriteLine(dice6);
 						break;
 				}
+
 				Console.ReadKey();
 				int rollTotal = roll1 + roll2 + roll3;
 				Console.WriteLine($"All dice have been rolled. Total score: {rollTotal}.");
