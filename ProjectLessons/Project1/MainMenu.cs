@@ -36,7 +36,7 @@ namespace Main
 					else if (x == 2)
 					{
 						Console.WriteLine("\nGame rules:");
-				        Rules();
+                Rules();
 					}
 					else if (x == 3)
 					{
@@ -48,7 +48,7 @@ namespace Main
 						Console.WriteLine("\nGoodbye.");
 					}
 		}
-		public void Rules()
+		public static void Rules()
         {
 			Console.WriteLine("\nRules:\nFor the game, 3 dice rolls are given.\nIf the player gets more than 12 points in total, then he wins the game, if not, he loses.");
 		}

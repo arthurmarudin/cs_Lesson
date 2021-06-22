@@ -14,8 +14,6 @@ using Main;
 				string dice5 = "+-----+\n| * * |\n|  *  |\n| * * |\n+-----+";
 				string dice6 = "+-----+\n| * * |\n| * * |\n| * * |\n+-----+";
 
-				Console.WriteLine("Hey! I suggest playing the game Dice Roller.");
-				Console.ReadKey();
 				Console.WriteLine("What is your name?");
 				string name = Console.ReadLine();
 
