@@ -2,6 +2,7 @@
 using Project1;
 using Game;
 using Main;
+using Users;
 
 namespace topUsers
 {
@@ -9,8 +10,12 @@ namespace topUsers
     {
         public void Users()
         {
+
             DiceRoller data = new DiceRoller();
-            Console.WriteLine($"Top users:\ndata.Roller(name) : data.Roller(rollTotal)");
+            Console.WriteLine($"\n1. {getUsers.name} - {getUsers.rollTotal}");
+
+            Console.ReadKey();
+            // потом добавить .Sort(); .Reverse();
         }
     }
 }

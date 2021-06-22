@@ -33,7 +33,7 @@
 						{
 							Console.WriteLine("\nStart Game.");
 							DiceRoller game = new DiceRoller();
-							game.Roller();
+                            game.Roller();
 						}
 						else if (item == 2)
 						{

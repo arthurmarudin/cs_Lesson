@@ -1,13 +1,13 @@
 ﻿using System;
+using Users;
 
 	namespace Game
 	{
 		public class DiceRoller
 		{
-		public int roll1;
+		public string name;
 		public int rollTotal;
-
-			public void Roller()
+		public void Roller()
 			{
 				string dice1 = "+-----+\n|     |\n|  *  |\n|     |\n+-----+";
 				string dice2 = "+-----+\n|     |\n| * * |\n|     |\n+-----+";
@@ -17,9 +17,9 @@
 				string dice6 = "+-----+\n| * * |\n| * * |\n| * * |\n+-----+";
 
 				Console.WriteLine("What is your name?");
-				string name = Console.ReadLine();
+			    getUsers.name = Console.ReadLine();
 
-				Console.WriteLine($"\n{name}, let's start the game!\n");
+				Console.WriteLine($"\n{getUsers.name}, let's start the game!\n");
 				Console.ReadKey();
 
 			    Random dice = new Random();
@@ -98,8 +98,8 @@
 				}
 
 				Console.ReadKey();
-				int rollTotal = roll1 + roll2 + roll3;
-				Console.WriteLine($"All dice have been rolled. Total score: {rollTotal}.");
+			    getUsers.rollTotal = roll1 + roll2 + roll3;
+				Console.WriteLine($"All dice have been rolled. Total score: {getUsers.rollTotal}.");
 				Console.WriteLine();
 
 				if (roll1 == roll2 || roll2 == roll3 || roll3 == roll1)
@@ -107,21 +107,21 @@
 					if (roll1 == roll2 && roll2 == roll3)
 					{
 						Console.WriteLine("And you have triplet! +4 bonus to total score!");
-						rollTotal += 6;
+					getUsers.rollTotal += 6;
 					}
 					else
 					{
 						Console.WriteLine("And you have doubles! +2 bonus to total score!");
-						rollTotal += 2;
+					getUsers.rollTotal += 2;
 					}
 				}
-				if (rollTotal > 12)
+				if (getUsers.rollTotal > 12)
 				{
-					Console.WriteLine($"\n{name}, Congratulations! You win!\nYou score: {rollTotal}");
+					Console.WriteLine($"\n{getUsers.name}, Congratulations! You win!\nYou score: {getUsers.rollTotal}");
 				}
 				else
 				{
-					Console.WriteLine($"\n{name}, you lose, sorry. Try again.\nYou score: {rollTotal}.");
+					Console.WriteLine($"\n{getUsers.name}, you lose, sorry. Try again.\nYou score: {getUsers.rollTotal}.");
 				}
 			}
 		}
