@@ -1,13 +1,17 @@
 ﻿using System;
-using Users;
 
 	namespace Game
 	{
-		public class DiceRoller
+	public static class getUsers
+    {
+        public static string name { get; set; }
+        public static int rollTotal { get; set; }
+    }	
+	public class Game
 		{
 		public string name;
 		public int rollTotal;
-		public void Roller()
+		public void DiceRoller()
 			{
 				string dice1 = "+-----+\n|     |\n|  *  |\n|     |\n+-----+";
 				string dice2 = "+-----+\n|     |\n| * * |\n|     |\n+-----+";
