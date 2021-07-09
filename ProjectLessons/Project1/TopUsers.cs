@@ -7,9 +7,7 @@ namespace Leaderboard
     {
         public void ShowLeaderboard()
         {
-            Game.Game data = new Game.Game();
-            Console.WriteLine($"\n1. {getUsers.name} - {getUsers.rollTotal}");
-
+            Console.WriteLine($"\n1. {Users.Name} - {Users.RollTotal}");
             Console.ReadKey();
         }
     }
